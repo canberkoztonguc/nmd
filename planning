@@ -1,0 +1,22 @@
+Game Theme
+Theme: An Ottoman character on a flying carpet trying to land safely.
+
+Game Mechanics
+Horizontal movement with "A" and "D".
+If velocity is above a threshold upon landing, the game is lost. If below, the game is won.
+Vertical movement (jumping) with space-bar.
+
+Game Screens
+Start Screen: Displays instructions and awaits the user to press "W" to start.
+Gameplay: Main game mechanics, including:
+Flying character/carpet.
+Ground mechanics and velocity checks.
+Game Over: Displays messages depending on whether the player wins or loses, with an option to restart.
+
+Timeline
+15th November: Initial setup, theme selection, and basic mechanics (gravity, velocity).
+16th November: Character design and thruster implementation.(wasted with trying to fullify character with pixel art)
+17th November: Game state transitions and screen designs.
+18th November: Testing and debugging (fixing velocity thresholds, game restart issues).
+19th November: Final polishing, refining visuals, and adding minor effects.
+20th November: Final check and submission.
