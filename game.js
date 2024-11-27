@@ -1,3 +1,9 @@
+function setup() {
+  frameRate(60);
+  createCanvas(1000, 1000);
+  background(190);
+}
+
 let position = { x: 0, y: 50 };
 let jump = {
   velocityY: 0,
@@ -13,11 +19,7 @@ let jump = {
 let gameStarted = false;
 let gameOver = false;
 
-function setup() {
-  frameRate(60);
-  createCanvas(1000, 1000);
-  background(190);
-}
+
 
 function ground() {
   strokeWeight(0);
